@@ -1,0 +1,41 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+h1{
+    color:purple}
+
+h3{
+color: greenyellow;
+
+}
+
+p{
+
+    color: teal;
+}
+#container {
+display: flex;
+flex-direction: column;
+
+}
+
+.box{
+
+border: 2px solid red;
+flex: 1;
+min-width: 20em;
+min-height: 10em;
+font-family: arial;
+
+}
+button{
+background-color: blue;
+font-size: 15px;
+color: white;
+
+
+}
